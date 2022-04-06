@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content ="width=device-width", initial-scale = "1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Doc</title>
+
+</source>
+</head>
+
+<body>
+<header class="header">
+    <nav class="navigation-flex">
+        <button class="btn" id="btn1" onclick="tempBtnPress()">Num1</button>
+        <button class="btn" id="btn2" onclick="tempBtnPress()">Num2</button>
+        <button class="btn" id="btn3" onclick="tempBtnPress()">Num3</button>
+    </nav>
+</header>
+
+<main id="bodyContent">
+
+    <form id="form">
+        Name: <input type="text" class="formField" id="nameField" placeholder="Name">
+        Pass: <input type="password" class="formField" id="passField" placeholder="Pass">
+        confirmPass: <input type="password" class="formField" id="confPassField" placeholder="Confirm Pass">
+        Country: <select id="Country" name="Country">
+            <option value="New Zealand">New Zealand</option>
+            <option value="Australia">Australia</option>
+            <option value="Canada">Canada</option>
+        </select>
+        <input id="submitBtn" type="submit" value="save" onclick="submitFields(event, style)">
+    </form>
+
+    <section class = "content">
+    
+    </section>
+</main>
+
+<footer class="ground">
+
+</footer>
+<script src = "interaction.js"></script>
+</body>
